@@ -1,1 +1,32 @@
 .venv
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3*
+media
+
+### Django.Python Stack ###
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Environments, Key
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+serviceAccountKey.json
+
+# .DS_Store
+.DS_Store
+
+### IDE
+# VSCode
+launch.json
